@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["64673V65V3.dev.masci.exordium"],
+        "components": [{ "/": "/join/*", "comment": "Invite links" }]
+      }
+    ]
+  }
+}

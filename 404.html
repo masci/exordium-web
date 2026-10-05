@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exordium</title>
+<style>
+  body { font: 18px/1.5 Georgia, serif; max-width: 30rem; margin: 20vh auto; padding: 0 1.5rem; text-align: center; }
+  code { font: 700 2rem ui-monospace, monospace; letter-spacing: .2em; display: block; margin: 1rem 0; }
+  a.button { display: inline-block; padding: .6rem 1.4rem; border-radius: 99px; background: #000; color: #fff; text-decoration: none; }
+  [hidden] { display: none; }
+</style>
+</head>
+<body>
+<h1>Exordium</h1>
+<!-- GitHub Pages serves this file for every path that does not exist, so /join/CODE lands here when the app is not installed. -->
+<section id="invite" hidden>
+  <p>You are invited to a challenge. Install Exordium, then enter this code:</p>
+  <code id="code"></code>
+  <a class="button" id="open" href="#">Open in the app</a>
+</section>
+<section id="missing" hidden>
+  <p>There is nothing at this address.</p>
+</section>
+<script>
+  var match = location.pathname.match(/^\/join\/([A-Za-z0-9]{8})\/?$/);
+  if (match) {
+    var code = match[1].toUpperCase();
+    document.getElementById("code").textContent = code;
+    document.getElementById("open").href = "exordium://join/" + code;
+    document.getElementById("invite").hidden = false;
+  } else {
+    document.getElementById("missing").hidden = false;
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      # not upload-pages-artifact: it leaves out dot-directories, and the association file is in .well-known
+      - run: |
+          mkdir "$RUNNER_TEMP/site"
+          cp -R .well-known 404.html index.html CNAME "$RUNNER_TEMP/site/"
+          tar --dereference --hard-dereference -cf "$RUNNER_TEMP/artifact.tar" -C "$RUNNER_TEMP/site" .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
+      - id: deployment
+        uses: actions/deploy-pages@v4
