@@ -26,7 +26,8 @@ jobs:
       # not upload-pages-artifact: it leaves out dot-directories, and the association file is in .well-known
       - run: |
           mkdir "$RUNNER_TEMP/site"
-          cp -R .well-known 404.html index.html CNAME "$RUNNER_TEMP/site/"
+          # everything but the repository itself: new pages are picked up without touching this file
+          rsync -a --exclude='.git' --exclude='.github' --exclude='README.md' ./ "$RUNNER_TEMP/site/"
           tar --dereference --hard-dereference -cf "$RUNNER_TEMP/artifact.tar" -C "$RUNNER_TEMP/site" .
       - uses: actions/upload-artifact@v4
         with:
