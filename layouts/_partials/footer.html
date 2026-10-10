@@ -1,0 +1,14 @@
+{{- $ui := site.Params.ui -}}
+<footer class="site-footer" data-pagefind-ignore>
+  <div class="site-footer__top">
+    <p class="site-footer__title">{{ site.Title }}</p>
+    <p class="site-footer__tagline">{{ $ui.footerTagline }}</p>
+  </div>
+  <p class="site-footer__meta">
+    {{ $ui.footerCopyright }} ·
+    <a href="mailto:{{ site.Params.contactEmail }}">{{ site.Params.contactEmail }}</a>
+    {{- range .AllTranslations }}
+      {{- if ne .Language.Lang site.Language.Lang }} · <a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}" lang="{{ .Language.LanguageCode }}">{{ .Language.Label }}</a>{{ end }}
+    {{- end }}
+  </p>
+</footer>

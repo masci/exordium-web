@@ -1,0 +1,87 @@
+baseURL = 'https://exordium.pippi.im/'
+title = 'Exordium'
+theme = 'sugo'
+defaultContentLanguage = 'en'
+disablePathToLower = true
+enableRobotsTXT = false
+disableKinds = ['taxonomy', 'term', 'RSS']
+
+[languages.en]
+locale = 'en'
+label = 'English'
+weight = 1
+
+[languages.it]
+locale = 'it'
+label = 'Italiano'
+weight = 2
+
+[params]
+contactEmail = 'mpippi@gmail.com'
+
+[params.features]
+enableSearch = false
+enableBreadcrumbs = false
+enableBackToTop = false
+enablePagination = false
+enableRelatedPosts = false
+enableMath = false
+enableThemeToggle = true
+
+# system fonts: the theme's default loads Google Fonts, which would send visitors' addresses to Google
+[params.design]
+fontDisplay = 'Georgia, "Times New Roman", serif'
+fontBody = 'Georgia, "Times New Roman", serif'
+fontUi = '-apple-system, system-ui, sans-serif'
+
+[params.ui]
+themeStorageKey = 'exordium-color-scheme'
+brandKicker = 'Writing challenges'
+
+[[languages.en.menus.main]]
+name = 'Privacy'
+pageRef = '/privacy'
+weight = 10
+
+[[languages.en.menus.main]]
+name = 'Terms'
+pageRef = '/terms'
+weight = 20
+
+[[languages.en.menus.main]]
+name = 'Support'
+pageRef = '/support'
+weight = 30
+
+[languages.en.params.ui]
+brandKicker = 'Writing challenges'
+footerTagline = 'Writing challenges with friends.'
+footerCopyright = '© Exordium'
+themeToggleLabelDarkMode = 'Dark'
+themeToggleLabelLightMode = 'Light'
+
+[[languages.it.menus.main]]
+name = 'Privacy'
+pageRef = '/privacy'
+weight = 10
+
+[[languages.it.menus.main]]
+name = 'Termini'
+pageRef = '/terms'
+weight = 20
+
+[[languages.it.menus.main]]
+name = 'Assistenza'
+pageRef = '/support'
+weight = 30
+
+[languages.it.params.ui]
+brandKicker = 'Sfide di scrittura'
+footerTagline = 'Sfide di scrittura tra amici.'
+footerCopyright = '© Exordium'
+navToggleText = 'Menu'
+skipLinkText = 'Vai al contenuto'
+themeToggleLabelDarkMode = 'Scuro'
+themeToggleLabelLightMode = 'Chiaro'
+themeToggleAriaToDark = 'Passa al tema scuro'
+themeToggleAriaToLight = 'Passa al tema chiaro'
