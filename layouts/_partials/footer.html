@@ -8,7 +8,7 @@
     {{ $ui.footerCopyright }} ·
     <a href="mailto:{{ site.Params.contactEmail }}">{{ site.Params.contactEmail }}</a>
     {{- range .AllTranslations }}
-      {{- if ne .Language.Lang site.Language.Lang }} · <a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}" lang="{{ .Language.LanguageCode }}">{{ .Language.Label }}</a>{{ end }}
+      {{- if ne .Language.Lang site.Language.Lang }} · <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Locale }}" lang="{{ .Language.Locale }}">{{ .Language.Label }}</a>{{ end }}
     {{- end }}
   </p>
 </footer>
