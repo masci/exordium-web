@@ -1,7 +1,7 @@
 baseURL = 'https://exordium.pippi.im/'
 title = 'Exordium'
 theme = 'sugo'
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'it'
 disablePathToLower = true
 enableRobotsTXT = false
 disableKinds = ['taxonomy', 'term', 'RSS']
@@ -9,12 +9,12 @@ disableKinds = ['taxonomy', 'term', 'RSS']
 [languages.en]
 locale = 'en'
 label = 'English'
-weight = 1
+weight = 2
 
 [languages.it]
 locale = 'it'
 label = 'Italiano'
-weight = 2
+weight = 1
 
 [params]
 contactEmail = 'mpippi@gmail.com'
