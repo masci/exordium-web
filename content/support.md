@@ -24,9 +24,9 @@ Account menu, then Notifications: one switch for new assignments and one for new
 
 Write to us. We answer only to the email address of your account. If you signed in with Apple we have no email for you, so we give you a phrase to set as your display name for a moment, to prove that the account is yours; the name of a player or the code of a challenge is not proof. See the [privacy policy](/privacy/).
 
-### I want to report something a player wrote.
+### How do I report something a player wrote, or block a player?
 
-Write to us with the challenge code and what you saw; see the [terms](/terms/).
+In the app, open the menu (the three dots) next to a story, or next to a name on the standings. Choose Report, or Block. Blocking applies from the next assignment, and you can undo it under Account, Blocked players. You can also write to us with the challenge code and what you saw; see the [terms](/terms/).
 
 ### I did not get my sign-in code.
 

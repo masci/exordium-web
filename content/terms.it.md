@@ -20,9 +20,11 @@ Usando Exordium accetti queste regole. Sono brevi perché il gioco è pensato pe
 - Non condividere il tuo accesso. Sei responsabile di ciò che accade con il tuo account.
 - Puoi eliminare il tuo account nell’app in qualsiasi momento; ciò che resta dopo è descritto nell’[informativa sulla privacy](/it/privacy/).
 
-## Segnalazioni e rimozione
+## Segnalare e bloccare
 
-Se vedi qualcosa che viola queste regole, scrivi a [mpippi@gmail.com](mailto:mpippi@gmail.com) con il codice della sfida e cosa hai visto. Leggiamo ogni segnalazione e rispondiamo entro 24 ore. Possiamo rimuovere contenuti o account che violano le regole: non c’è tolleranza per contenuti inappropriati o comportamenti abusivi.
+Nell’app puoi segnalare un racconto, o il nome di un giocatore, e puoi bloccare un giocatore. Un racconto che segnali sparisce subito dal tuo elenco. Un blocco nasconde i racconti di quel giocatore dalle prossime assegnazioni, e puoi annullarlo in Account, Giocatori bloccati.
+
+Puoi anche scrivere a [mpippi@gmail.com](mailto:mpippi@gmail.com) con il codice della sfida e cosa hai visto. Leggiamo ogni segnalazione e rispondiamo entro 24 ore. Possiamo rimuovere contenuti o account che violano le regole: non c’è tolleranza per contenuti inappropriati o comportamenti abusivi.
 
 ## Il servizio
 

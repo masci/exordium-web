@@ -21,6 +21,7 @@ Massimiliano Pippi, an individual, is responsible for your data. Write to [mpipp
 | **Display name**, which you choose | The other players see it on the standings and when authors are revealed. You can change it at any time. |
 | **Your submissions** (the text and when you sent it), **your votes** and which challenges you play | To run the game. The other players of a challenge can read the stories of a window; the author stays hidden until the rules reveal it. |
 | **Device token** for notifications, and your two notification switches | To send the notifications you allow. You can turn them off in the app and in the system settings. |
+| **Reports and blocks**: what you report and why, any note you write, and the players you block | To handle reports and to hide stories from you. When you report a story, we see its text, who wrote it and who reported it, so that we can act. Nobody else sees a report. |
 | **Drafts** | They stay on your device and are never sent before you submit. |
 
 Our hosting providers also keep the technical logs that any online service has (for instance IP addresses), for a limited time, to run and secure the service.
@@ -28,7 +29,7 @@ Our hosting providers also keep the technical logs that any online service has (
 ## Who else handles it
 
 - **Supabase** hosts the database, the sign-in and the server functions, in a data centre in Ireland.
-- **Resend** sends the sign-in code by email (only if you use email to sign in).
+- **Resend** sends the sign-in code by email (only if you use email to sign in). It also sends us an email for each report, which has the text of the story that was reported, the display names and identifiers of its author and of the person who reported it, and any note. This applies to everyone, whichever way they sign in.
 - **Apple** provides Sign in with Apple and delivers the notifications.
 - **GitHub** hosts this website; it sees the addresses of those who visit it.
 
@@ -41,7 +42,10 @@ We keep your data for as long as your account exists. You can delete your accoun
 - the text of your submissions is erased;
 - your display name is removed, and you appear as “Deleted account”;
 - your sign-in (your email address, or the link to your Apple account), your devices and your notification settings are deleted, and for Apple sign-in the app’s access to your Apple account is revoked;
-- your votes, the votes you received and your place in the standings stay, without any name, so that the other players’ standings do not change. Nothing that stays can be linked back to you.
+- the players you blocked are forgotten;
+- your votes, the votes you received and your place in the standings stay, without any name, so that the other players’ standings do not change. Nothing in the standings can be linked back to you.
+
+**Reports are different.** A report you made stays in our records, with the note you wrote and an internal identifier of your account, which no longer has a name or an email address. A report that someone made about you stays too. When a report was made we also received an email about it, in the mailbox of the person responsible: it has the display name that was shown at that time, and it stays there. We keep reports and these emails for as long as the challenge they are about exists. Write to [mpippi@gmail.com](mailto:mpippi@gmail.com) if you want them deleted sooner.
 
 Copies in our provider’s backups disappear when those backups expire.
 

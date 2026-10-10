@@ -20,9 +20,11 @@ By using Exordium you agree to these rules. They are short because the game is m
 - Keep your sign-in to yourself. You are responsible for what happens with your account.
 - You can delete your account in the app at any time; what stays afterwards is described in the [privacy policy](/privacy/).
 
-## Reporting and removal
+## Reporting and blocking
 
-If you see something that breaks these rules, write to [mpippi@gmail.com](mailto:mpippi@gmail.com) with the challenge code and what you saw. We read every report and answer within 24 hours. We may remove content or accounts that break the rules: there is no tolerance for objectionable content or abusive behaviour.
+In the app you can report a story, or the name of a player, and you can block a player. A story you report disappears from your list at once. A block hides that player’s stories from the next assignments, and you can undo it under Account, Blocked players.
+
+You can also write to [mpippi@gmail.com](mailto:mpippi@gmail.com) with the challenge code and what you saw. We read every report and answer within 24 hours. We may remove content or accounts that break the rules: there is no tolerance for objectionable content or abusive behaviour.
 
 ## The service
 

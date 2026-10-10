@@ -24,9 +24,9 @@ Menu Account, poi Notifiche: un interruttore per le nuove assegnazioni e uno per
 
 Scrivici. Rispondiamo solo all’indirizzo email del tuo account. Se hai effettuato l’accesso con Apple non abbiamo un tuo indirizzo email, quindi ti diamo una frase da impostare per un momento come nome visualizzato, per dimostrare che l’account è tuo; il nome di un giocatore o il codice di una sfida non è una prova. Vedi l’[informativa sulla privacy](/it/privacy/).
 
-### Voglio segnalare qualcosa che ha scritto un giocatore.
+### Come segnalo qualcosa che ha scritto un giocatore, o blocco un giocatore?
 
-Scrivici con il codice della sfida e cosa hai visto; vedi i [termini](/it/terms/).
+Nell’app, apri il menu (i tre puntini) accanto a un racconto, o accanto a un nome in classifica. Scegli Segnala, oppure Blocca. Il blocco vale dalla prossima assegnazione e puoi annullarlo in Account, Giocatori bloccati. Puoi anche scriverci con il codice della sfida e cosa hai visto; vedi i [termini](/it/terms/).
 
 ### Non ho ricevuto il codice di accesso.
 
