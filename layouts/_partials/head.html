@@ -147,10 +147,10 @@
 <script>
 (function () {
   try {
-    var storageKey = {{ $themeStorageKey | jsonify }};
-    var defaultTheme = {{ $themeDefault | jsonify }};
-    var themeToggleEnabled = {{ $themeToggleEnabled | jsonify }};
-    var fixedThemeWhenToggleOff = {{ ($features.fixedThemeWhenToggleOff | default "light") | jsonify }};
+    var storageKey = {{ $themeStorageKey }};
+    var defaultTheme = {{ $themeDefault }};
+    var themeToggleEnabled = {{ $themeToggleEnabled }};
+    var fixedThemeWhenToggleOff = {{ ($features.fixedThemeWhenToggleOff | default "light") }};
     window.__MYTHEME_STORAGE_KEY__ = storageKey;
     window.__MYTHEME_DEFAULT_THEME__ = defaultTheme;
     window.__MYTHEME_THEME_TOGGLE_ENABLED__ = themeToggleEnabled;
@@ -168,7 +168,7 @@
     }
     document.documentElement.setAttribute("data-theme", theme);
   } catch (error) {
-    document.documentElement.setAttribute("data-theme", {{ $themeDefault | jsonify }});
+    document.documentElement.setAttribute("data-theme", {{ $themeDefault }});
   }
 })();
 </script>
