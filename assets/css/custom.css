@@ -1,0 +1,104 @@
+/* Plain Markdown tables inside articles. */
+.article-page__body table {
+  width: 100%;
+  margin: 1.6rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  overflow: hidden;
+}
+
+.article-page__body table th,
+.article-page__body table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.55;
+}
+
+.article-page__body table thead th {
+  background: color-mix(in srgb, var(--color-surface-strong) 76%, var(--color-surface));
+  border-bottom: 2px solid var(--color-accent-soft);
+  color: var(--color-muted);
+  font-family: var(--font-ui);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.article-page__body table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.article-page__body table tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--color-surface-strong) 45%, transparent);
+}
+
+.article-page__body table tbody tr:hover {
+  background: color-mix(in srgb, var(--color-accent) 9%, transparent);
+}
+
+.article-page__body table td {
+  font-size: 0.94rem;
+}
+
+/* First column names the item, second explains it. */
+.article-page__body table td:first-child {
+  width: 55%;
+  border-right: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.article-page__body table td:not(:first-child) {
+  color: var(--color-muted);
+}
+
+/* Small screens: show each row as a card. */
+@media (max-width: 640px) {
+  .article-page__body table,
+  .article-page__body table tbody,
+  .article-page__body table tr,
+  .article-page__body table td {
+    display: block;
+    width: 100%;
+  }
+
+  .article-page__body table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  .article-page__body table {
+    border: 0;
+    background: none;
+  }
+
+  .article-page__body table tbody tr {
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface);
+    overflow: hidden;
+  }
+
+  .article-page__body table td:first-child {
+    width: 100%;
+    border-right: 0;
+    background: color-mix(in srgb, var(--color-surface-strong) 76%, var(--color-surface));
+  }
+
+  .article-page__body table tbody tr:last-child td {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .article-page__body table tbody tr td:last-child {
+    border-bottom: 0;
+  }
+}

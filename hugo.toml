@@ -26,7 +26,8 @@ enableBackToTop = false
 enablePagination = false
 enableRelatedPosts = false
 enableMath = false
-enableThemeToggle = true
+enableThemeToggle = false
+fixedThemeWhenToggleOff = 'light'
 
 # system fonts: the theme's default loads Google Fonts, which would send visitors' addresses to Google
 [params.design]
