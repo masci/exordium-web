@@ -194,3 +194,7 @@ window.MathJax = {
 {{- end }}
 {{ partialCached "head/fonts.html" . }}
 {{ partialCached "head/css.html" . }}
+
+{{ with resources.Get "css/custom.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
