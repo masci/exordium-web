@@ -4,7 +4,7 @@ slug: privacy
 translationKey: privacy
 ---
 
-Last updated: 8 October 2026
+Last updated: 20 October 2026
 
 Exordium is a writing game for small groups: someone starts a challenge, everyone writes from the same prompt, and the others read and vote. This page says what the app does with your data. We collect only what the game needs, we do not sell it, and there is no advertising, no tracking and no analytics in the app.
 
@@ -19,6 +19,7 @@ Massimiliano Pippi, an individual, is responsible for your data. Write to [mpipp
 | **Email address**, only if you sign in with an email code | To send you the code and recognise you when you come back. |
 | **Apple sign-in**: an identifier that Apple gives the app for you. The app asks Apple for neither your name nor your email, so we hold neither. | To recognise you when you sign in with Apple. |
 | **Display name**, which you choose | The other players see it on the standings and when authors are revealed. You can change it at any time. |
+| **Photo**, only if you choose one | The other players of your challenges see it next to your name. You can change it or remove it at any time. It is kept as a file at an address that is not listed anywhere, but anyone who has the address can open it. |
 | **Your submissions** (the text and when you sent it), **your votes** and which challenges you play | To run the game. The other players of a challenge can read the stories of a window; the author stays hidden until the rules reveal it. |
 | **Device token** for notifications, and your two notification switches | To send the notifications you allow. You can turn them off in the app and in the system settings. |
 | **Reports and blocks**: what you report and why, any note you write, and the players you block | To handle reports and to hide stories from you. When you report a story, we see its text, who wrote it and who reported it, so that we can act. Nobody else sees a report. |
@@ -28,8 +29,8 @@ Our hosting providers also keep the technical logs that any online service has (
 
 ## Who else handles it
 
-- **Supabase** hosts the database, the sign-in and the server functions, in a data centre in Ireland.
-- **Resend** sends the sign-in code by email (only if you use email to sign in). It also sends us an email for each report, which has the text of the story that was reported, the display names and identifiers of its author and of the person who reported it, and any note. This applies to everyone, whichever way they sign in.
+- **Supabase** hosts the database, the photos, the sign-in and the server functions, in a data centre in Ireland.
+- **Resend** sends the sign-in code by email (only if you use email to sign in). It also sends us an email for each report, which has the text of the story that was reported (or, for a player, the address of their photo), the display names and identifiers of its author and of the person who reported it, and any note. This applies to everyone, whichever way they sign in.
 - **Apple** provides Sign in with Apple and delivers the notifications.
 - **GitHub** hosts this website; it sees the addresses of those who visit it.
 
@@ -41,6 +42,7 @@ We keep your data for as long as your account exists. You can delete your accoun
 
 - the text of your submissions is erased;
 - your display name is removed, and you appear as “Deleted account”;
+- your photo, if you had one, is deleted;
 - your sign-in (your email address, or the link to your Apple account), your devices and your notification settings are deleted, and for Apple sign-in the app’s access to your Apple account is revoked;
 - the players you blocked are forgotten;
 - your votes, the votes you received and your place in the standings stay, without any name, so that the other players’ standings do not change. Nothing in the standings can be linked back to you.
@@ -51,7 +53,7 @@ Copies in our provider’s backups disappear when those backups expire.
 
 ## Your rights
 
-- **See and correct:** you see your name and your submissions in the app, and you can change your name there.
+- **See and correct:** you see your name, your photo and your submissions in the app, and you can change your name and your photo there.
 - **Export:** write to [mpippi@gmail.com](mailto:mpippi@gmail.com) and we send you a copy of your data in a common format, within one month. We answer only to the email address of your account. If you signed in with Apple, we have no email address for you, so we ask you to prove that the account is yours from inside the app: we give you a phrase to set as your display name for a moment. Knowing the name of a player or the code of a challenge is not proof, because other players know those.
 - **Delete:** in the app, as above. If you signed in with email and cannot use the app any more, write to us and we confirm it with the address of your account.
 - **Object or restrict:** write to us.
