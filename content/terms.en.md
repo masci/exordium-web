@@ -4,14 +4,14 @@ slug: terms
 translationKey: terms
 ---
 
-Last updated: 8 October 2026
+Last updated: 20 October 2026
 
 By using Exordium you agree to these rules. They are short because the game is meant for people who know each other.
 
 ## What you write
 
 - You keep the rights to your stories. By submitting one you let Exordium show it to the other players of that challenge, and keep it in the standings, as the game requires.
-- Write only what you are allowed to write. Do not post anything illegal, hateful, threatening or harassing, nothing sexual involving minors, no one’s private information, and nothing that infringes someone else’s rights.
+- Write, and choose as your avatar, only what you are allowed to use. Do not post anything illegal, hateful, threatening or harassing, nothing sexual involving minors, no one’s private information, and nothing that infringes someone else’s rights.
 - Do not try to find out who wrote an anonymous story by any means other than playing the game.
 
 ## Your account
@@ -22,7 +22,7 @@ By using Exordium you agree to these rules. They are short because the game is m
 
 ## Reporting and blocking
 
-In the app you can report a story, or the name of a player, and you can block a player. A story you report disappears from your list at once. A block hides that player’s stories from the next assignments, and you can undo it under Account, Blocked players.
+In the app you can report a story, or the name or avatar of a player, and you can block a player. A story you report disappears from your list at once. A block hides that player’s stories from the next assignments, and you can undo it under Account, Blocked players.
 
 You can also write to [mpippi@gmail.com](mailto:mpippi@gmail.com) with the challenge code and what you saw. We read every report and answer within 24 hours. We may remove content or accounts that break the rules: there is no tolerance for objectionable content or abusive behaviour.
 

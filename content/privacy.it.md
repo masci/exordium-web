@@ -4,7 +4,7 @@ slug: privacy
 translationKey: privacy
 ---
 
-Ultimo aggiornamento: 8 ottobre 2026
+Ultimo aggiornamento: 20 ottobre 2026
 
 Exordium è un gioco di scrittura per piccoli gruppi: qualcuno avvia una sfida, tutti scrivono a partire dalla stessa traccia, gli altri leggono e votano. Questa pagina spiega cosa fa l’app con i tuoi dati. Raccogliamo solo ciò che serve al gioco, non lo vendiamo, e nell’app non ci sono pubblicità, tracciamento né analisi.
 
@@ -19,6 +19,7 @@ Il responsabile del trattamento dei tuoi dati è Massimiliano Pippi, persona fis
 | **Indirizzo email**, solo se accedi con un codice via email | Per inviarti il codice e riconoscerti quando torni. |
 | **Accesso con Apple**: un identificativo che Apple dà all’app per te. L’app non chiede ad Apple né il tuo nome né la tua email, quindi non abbiamo né l’uno né l’altra. | Per riconoscerti quando accedi con Apple. |
 | **Nome visualizzato**, che scegli tu | Gli altri giocatori lo vedono in classifica e quando gli autori vengono rivelati. Puoi cambiarlo quando vuoi. |
+| **Avatar**, solo se ne scegli uno: un’immagine della tua libreria di foto, che non deve per forza mostrare te | Gli altri giocatori delle tue sfide lo vedono accanto al tuo nome. Puoi cambiarlo o rimuoverlo quando vuoi. È conservato come file a un indirizzo che non è elencato da nessuna parte, ma chiunque conosca l’indirizzo può aprirla. |
 | **I tuoi racconti** (il testo e quando l’hai inviato), **i tuoi voti** e le sfide a cui partecipi | Per far funzionare il gioco. Gli altri giocatori di una sfida possono leggere i racconti di una finestra; l’autore resta nascosto finché le regole non lo rivelano. |
 | **Token del dispositivo** per le notifiche, e i tuoi due interruttori delle notifiche | Per inviarti le notifiche che consenti. Puoi disattivarle nell’app e nelle impostazioni di sistema. |
 | **Segnalazioni e blocchi**: cosa segnali e perché, l’eventuale nota che scrivi, e i giocatori che blocchi | Per gestire le segnalazioni e nasconderti dei racconti. Quando segnali un racconto, vediamo il testo, chi l’ha scritto e chi l’ha segnalato, così possiamo intervenire. Nessun altro vede una segnalazione. |
@@ -28,8 +29,8 @@ I nostri fornitori di hosting conservano anche i registri tecnici che ogni servi
 
 ## Chi altro li tratta
 
-- **Supabase** ospita il database, l’accesso e le funzioni del server, in un data center in Irlanda.
-- **Resend** invia il codice di accesso via email (solo se accedi con l’email). Ci invia anche un’email per ogni segnalazione, che contiene il testo del racconto segnalato, i nomi visualizzati e gli identificativi di chi l’ha scritto e di chi l’ha segnalato, e l’eventuale nota. Vale per tutti, in qualunque modo accedano.
+- **Supabase** ospita il database, gli avatar, l’accesso e le funzioni del server, in un data center in Irlanda.
+- **Resend** invia il codice di accesso via email (solo se accedi con l’email). Ci invia anche un’email per ogni segnalazione, che contiene il testo del racconto segnalato (o, per un giocatore, l’indirizzo del suo avatar), i nomi visualizzati e gli identificativi di chi l’ha scritto e di chi l’ha segnalato, e l’eventuale nota. Vale per tutti, in qualunque modo accedano.
 - **Apple** fornisce l’accesso con Apple e consegna le notifiche.
 - **GitHub** ospita questo sito e vede gli indirizzi di chi lo visita.
 
@@ -41,6 +42,7 @@ Conserviamo i tuoi dati finché esiste il tuo account. Puoi eliminarlo nell’ap
 
 - il testo dei tuoi racconti viene cancellato;
 - il tuo nome visualizzato viene rimosso e compari come “Account eliminato”;
+- il tuo avatar, se ne avevi uno, viene eliminato;
 - il tuo accesso (il tuo indirizzo email, o il collegamento al tuo account Apple), i tuoi dispositivi e le impostazioni delle notifiche vengono eliminati, e per l’accesso con Apple viene revocato l’accesso dell’app al tuo account Apple;
 - i giocatori che hai bloccato vengono dimenticati;
 - i tuoi voti, i voti che hai ricevuto e il tuo posto in classifica restano, senza alcun nome, perché la posizione degli altri giocatori non cambi. Nulla in classifica può essere ricondotto a te.
@@ -51,7 +53,7 @@ Le copie nei backup del nostro fornitore scompaiono quando quei backup scadono.
 
 ## I tuoi diritti
 
-- **Vedere e correggere:** nell’app vedi il tuo nome e i tuoi racconti, e puoi cambiare il tuo nome.
+- **Vedere e correggere:** nell’app vedi il tuo nome, il tuo avatar e i tuoi racconti, e puoi cambiare il tuo nome e il tuo avatar.
 - **Esportare:** scrivi a [mpippi@gmail.com](mailto:mpippi@gmail.com) e ti mandiamo una copia dei tuoi dati in un formato comune, entro un mese. Rispondiamo solo all’indirizzo email del tuo account. Se hai effettuato l’accesso con Apple, non abbiamo un tuo indirizzo email, quindi ti chiediamo di dimostrare che l’account è tuo dall’interno dell’app: ti diamo una frase da impostare per un momento come nome visualizzato. Conoscere il nome di un giocatore o il codice di una sfida non è una prova, perché gli altri giocatori li conoscono.
 - **Eliminare:** nell’app, come sopra. Se hai effettuato l’accesso con l’email e non puoi più usare l’app, scrivici e confermiamo con l’indirizzo del tuo account.
 - **Opporti o limitare il trattamento:** scrivici.

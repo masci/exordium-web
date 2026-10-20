@@ -4,14 +4,14 @@ slug: terms
 translationKey: terms
 ---
 
-Ultimo aggiornamento: 8 ottobre 2026
+Ultimo aggiornamento: 20 ottobre 2026
 
 Usando Exordium accetti queste regole. Sono brevi perché il gioco è pensato per persone che si conoscono.
 
 ## Cosa scrivi
 
 - Conservi i diritti sui tuoi racconti. Inviandone uno permetti a Exordium di mostrarlo agli altri giocatori di quella sfida e di mantenerlo in classifica, come il gioco richiede.
-- Scrivi solo ciò che hai il diritto di scrivere. Non pubblicare nulla di illegale, di odioso, minaccioso o molesto, nulla di sessuale che riguardi minori, informazioni private di altri, né nulla che violi i diritti altrui.
+- Scrivi, e scegli come avatar, solo ciò che hai il diritto di usare. Non pubblicare nulla di illegale, di odioso, minaccioso o molesto, nulla di sessuale che riguardi minori, informazioni private di altri, né nulla che violi i diritti altrui.
 - Non cercare di scoprire chi ha scritto un racconto anonimo in modi diversi dal giocare.
 
 ## Il tuo account
@@ -22,7 +22,7 @@ Usando Exordium accetti queste regole. Sono brevi perché il gioco è pensato pe
 
 ## Segnalare e bloccare
 
-Nell’app puoi segnalare un racconto, o il nome di un giocatore, e puoi bloccare un giocatore. Un racconto che segnali sparisce subito dal tuo elenco. Un blocco nasconde i racconti di quel giocatore dalle prossime assegnazioni, e puoi annullarlo in Account, Giocatori bloccati.
+Nell’app puoi segnalare un racconto, o il nome o l’avatar di un giocatore, e puoi bloccare un giocatore. Un racconto che segnali sparisce subito dal tuo elenco. Un blocco nasconde i racconti di quel giocatore dalle prossime assegnazioni, e puoi annullarlo in Account, Giocatori bloccati.
 
 Puoi anche scrivere a [mpippi@gmail.com](mailto:mpippi@gmail.com) con il codice della sfida e cosa hai visto. Leggiamo ogni segnalazione e rispondiamo entro 24 ore. Possiamo rimuovere contenuti o account che violano le regole: non c’è tolleranza per contenuti inappropriati o comportamenti abusivi.
 
