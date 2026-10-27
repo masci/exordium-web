@@ -4,7 +4,7 @@ slug: privacy
 translationKey: privacy
 ---
 
-Last updated: 20 October 2026
+Last updated: 27 October 2026
 
 Exordium is a writing game for small groups: someone starts a challenge, everyone writes from the same prompt, and the others read and vote. This page says what the app does with your data. We collect only what the game needs, we do not sell it, and there is no advertising, no tracking and no analytics in the app.
 
@@ -21,8 +21,9 @@ Massimiliano Pippi, an individual, is responsible for your data. Write to [mpipp
 | **Display name**, which you choose | The other players see it on the standings and when authors are revealed. You can change it at any time. |
 | **Avatar**, only if you choose one: an image from your photo library, which does not have to show you | The other players of your challenges see it next to your name. You can change it or remove it at any time. It is kept as a file at an address that is not listed anywhere, but anyone who has the address can open it. |
 | **Your submissions** (the text and when you sent it), **your votes** and which challenges you play | To run the game. The other players of a challenge can read the stories of a window; the author stays hidden until the rules reveal it. |
+| **Prompt pools you write**: their names and their prompts | To let you use them in your challenges. The players of a challenge that uses one read its name and every prompt, and can report them. |
 | **Device token** for notifications, and your two notification switches | To send the notifications you allow. You can turn them off in the app and in the system settings. |
-| **Reports and blocks**: what you report and why, any note you write, and the players you block | To handle reports and to hide stories from you. When you report a story, we see its text, who wrote it and who reported it, so that we can act. Nobody else sees a report. |
+| **Reports and blocks**: what you report and why, any note you write, and the players you block | To handle reports and to hide stories from you. When you report a story, the name of a prompt pool or a prompt, we see its text, who wrote it and who reported it, so that we can act. Nobody else sees a report. |
 | **Drafts** | They stay on your device and are never sent before you submit. |
 
 Our hosting providers also keep the technical logs that any online service has (for instance IP addresses), for a limited time, to run and secure the service.
@@ -30,7 +31,7 @@ Our hosting providers also keep the technical logs that any online service has (
 ## Who else handles it
 
 - **Supabase** hosts the database, the avatars, the sign-in and the server functions, in a data centre in Ireland.
-- **Resend** sends the sign-in code by email (only if you use email to sign in). It also sends us an email for each report, which has the text of the story that was reported (or, for a player, the address of their avatar), the display names and identifiers of its author and of the person who reported it, and any note. This applies to everyone, whichever way they sign in.
+- **Resend** sends the sign-in code by email (only if you use email to sign in). It also sends us an email for each report, which has the text of the story that was reported (or, for a player, the address of their avatar, and for a prompt pool, its name or the prompt), the display names and identifiers of its author and of the person who reported it, and any note. This applies to everyone, whichever way they sign in.
 - **Apple** provides Sign in with Apple and delivers the notifications.
 - **GitHub** hosts this website; it sees the addresses of those who visit it.
 
@@ -41,6 +42,7 @@ Where one of them is outside the European Union or the European Economic Area, w
 We keep your data for as long as your account exists. You can delete your account in the app (Account menu, then Delete account). When you do:
 
 - the text of your submissions is erased;
+- the names of your prompt pools and the text of their prompts are erased, and a challenge that uses one of your pools ends there, with its standings as they are;
 - your display name is removed, and you appear as “Deleted account”;
 - your avatar, if you had one, is deleted;
 - your sign-in (your email address, or the link to your Apple account), your devices and your notification settings are deleted, and for Apple sign-in the app’s access to your Apple account is revoked;
