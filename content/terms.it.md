@@ -11,7 +11,7 @@ Usando Exordium accetti queste regole. Sono brevi perché il gioco è pensato pe
 ## Cosa scrivi
 
 - Conservi i diritti sui tuoi racconti. Inviandone uno permetti a Exordium di mostrarlo agli altri giocatori di quella sfida e di mantenerlo in classifica, come il gioco richiede.
-- Una raccolta di prompt la scrivi tu. Il suo nome e i suoi prompt vengono mostrati ai giocatori delle sfide che la usano, quindi le regole qui sotto valgono per loro come per i racconti.
+- Una raccolta di tracce la scrivi tu. Il suo nome e le sue tracce vengono mostrati ai giocatori delle sfide che la usano, quindi le regole qui sotto valgono per loro come per i racconti.
 - Scrivi, e scegli come avatar, solo ciò che hai il diritto di usare. Non pubblicare nulla di illegale, di odioso, minaccioso o molesto, nulla di sessuale che riguardi minori, informazioni private di altri, né nulla che violi i diritti altrui.
 - Non cercare di scoprire chi ha scritto un racconto anonimo in modi diversi dal giocare.
 
@@ -23,7 +23,7 @@ Usando Exordium accetti queste regole. Sono brevi perché il gioco è pensato pe
 
 ## Segnalare e bloccare
 
-Nell’app puoi segnalare un racconto, il nome o l’avatar di un giocatore, il nome di una raccolta di prompt o uno dei suoi prompt, e puoi bloccare un giocatore. Un racconto che segnali sparisce subito dal tuo elenco. Un blocco nasconde i racconti di quel giocatore dalle prossime assegnazioni, e puoi annullarlo in Account, Giocatori bloccati.
+Nell’app puoi segnalare un racconto, il nome o l’avatar di un giocatore, il nome di una raccolta di tracce o una delle sue tracce, e puoi bloccare un giocatore. Un racconto che segnali sparisce subito dal tuo elenco. Un blocco nasconde i racconti di quel giocatore dalle prossime assegnazioni, e puoi annullarlo in Account, Giocatori bloccati.
 
 Puoi anche scrivere a [mpippi@gmail.com](mailto:mpippi@gmail.com) con il codice della sfida e cosa hai visto. Leggiamo ogni segnalazione e rispondiamo entro 24 ore. Possiamo rimuovere contenuti o account che violano le regole: non c’è tolleranza per contenuti inappropriati o comportamenti abusivi.
 
